@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 
-using GeometryGym.Mvd;
+using GeometryGym2.Mvd;
 
-namespace GeometryGym.Ifc
+namespace GeometryGym2.Ifc
 {
 	public abstract partial class IfcElement : IfcProduct, IfcStructuralActivityAssignmentSelect
 	{

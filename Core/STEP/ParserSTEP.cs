@@ -26,9 +26,9 @@ using System.ComponentModel;
 using System.Globalization;
 using System.Threading.Tasks;
 using System.Diagnostics;
-using GeometryGym.Ifc;
+using GeometryGym2.Ifc;
 
-namespace GeometryGym.STEP
+namespace GeometryGym2.STEP
 {
 	public static class ParserSTEP 
 	{

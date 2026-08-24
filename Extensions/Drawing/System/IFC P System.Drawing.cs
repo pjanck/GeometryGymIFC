@@ -3,9 +3,9 @@ using System.Drawing;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 
-using GeometryGym.STEP;
+using GeometryGym2.STEP;
 
-namespace GeometryGym.Ifc
+namespace GeometryGym2.Ifc
 {
 	public abstract partial class IfcPreDefinedColour
 	{

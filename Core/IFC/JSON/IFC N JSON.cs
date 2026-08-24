@@ -34,7 +34,7 @@ using JsonArray = Newtonsoft.Json.Linq.JArray;
 using System.Text.Json.Nodes;
 #endif
 
-namespace GeometryGym.Ifc
+namespace GeometryGym2.Ifc
 {
 	public partial class IfcNamedUnit
 	{

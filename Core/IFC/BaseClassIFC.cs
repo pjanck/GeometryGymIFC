@@ -26,9 +26,9 @@ using System.Reflection;
 using System.IO;
 using System.Text;
 
-using GeometryGym.STEP;
+using GeometryGym2.STEP;
 
-namespace GeometryGym.Ifc
+namespace GeometryGym2.Ifc
 {
 	public class VersionAddedAttribute : Attribute
 	{

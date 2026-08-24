@@ -21,10 +21,10 @@ using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Reflection;
 using System.Linq;
-using GeometryGym.STEP;
+using GeometryGym2.STEP;
 
 
-namespace GeometryGym.Ifc
+namespace GeometryGym2.Ifc
 {
 	[Serializable]
 	public partial class Ifc2dCompositeCurve : IfcCompositeCurve

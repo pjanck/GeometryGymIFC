@@ -22,7 +22,7 @@ using System.Linq;
 using System.Xml;
 
 
-namespace GeometryGym.Ifc
+namespace GeometryGym2.Ifc
 {
 	public partial class IfcFace
 	{

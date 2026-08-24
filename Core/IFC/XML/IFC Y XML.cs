@@ -27,7 +27,7 @@ using System.Xml;
 //using System.Xml.Linq;
 
 
-namespace GeometryGym.Ifc
+namespace GeometryGym2.Ifc
 {
 	
 }

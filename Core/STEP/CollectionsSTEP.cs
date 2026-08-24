@@ -28,9 +28,9 @@ using System.IO;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
-using GeometryGym.Ifc;
+using GeometryGym2.Ifc;
 
-namespace GeometryGym.STEP
+namespace GeometryGym2.STEP
 {
 	[Serializable]
 	public class SET<T> : ICollection<T>, IEnumerable<T>, IEnumerable, INotifyCollectionChanged where T : ISTEPEntity //ICollection, 

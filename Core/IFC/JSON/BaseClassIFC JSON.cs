@@ -36,9 +36,9 @@ using JsonNode = Newtonsoft.Json.Linq.JToken;
 using System.Text.Json.Nodes;
 #endif
 
-using GeometryGym.STEP;
+using GeometryGym2.STEP;
 
-namespace GeometryGym.Ifc
+namespace GeometryGym2.Ifc
 {
 	public partial interface IBaseClassIfc { JsonObject getJson(BaseClassIfc host, BaseClassIfc.SetJsonOptions options); }
 	public partial class BaseClassIfc : STEPEntity, IBaseClassIfc

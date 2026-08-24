@@ -32,7 +32,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Xml;
 
-using GeometryGym.STEP;
+using GeometryGym2.STEP;
 using System.Diagnostics;
 
 #if (NET || !NOIFCJSON)
@@ -49,7 +49,7 @@ using System.Text.Json.Serialization;
 #endif
 #endif
 
-namespace GeometryGym.Ifc
+namespace GeometryGym2.Ifc
 {
 	public enum ReleaseVersion 
 	{
@@ -965,11 +965,11 @@ namespace GeometryGym.Ifc
 				}
 			}
 			string typeName = entity.GetType().Name;
-			Type type = Type.GetType("GeometryGym.Ifc." + typeName, false, true);
+			Type type = Type.GetType("GeometryGym2.Ifc." + typeName, false, true);
 			if (type == null)
 			{
 				typeName = entity.StepClassName;
-				type = Type.GetType("GeometryGym.Ifc." + typeName, false, true);
+				type = Type.GetType("GeometryGym2.Ifc." + typeName, false, true);
 				if (type == null)
 					throw new Exception("Unrecongnized ifc type " + typeName);
 			}

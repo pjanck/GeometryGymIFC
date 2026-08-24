@@ -25,9 +25,9 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Text;
-using GeometryGym.STEP;
+using GeometryGym2.STEP;
 
-namespace GeometryGym.Ifc
+namespace GeometryGym2.Ifc
 {
 	public partial class IfcTable
 	{

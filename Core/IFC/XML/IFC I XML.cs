@@ -21,10 +21,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Xml;
 
-using GeometryGym.STEP;
+using GeometryGym2.STEP;
 
 
-namespace GeometryGym.Ifc
+namespace GeometryGym2.Ifc
 {
 	public partial class IfcIndexedPolyCurve
 	{

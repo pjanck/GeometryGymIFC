@@ -30,7 +30,7 @@ using System.Xml.Serialization;
 //using System.Xml.Linq;
 
 
-namespace GeometryGym.Ifc
+namespace GeometryGym2.Ifc
 {
 	public partial class DatabaseIfc
 	{
@@ -65,7 +65,7 @@ namespace GeometryGym.Ifc
 		//	if (xml == null)
 		//		return null;
 		//	string keyword = xml.HasAttribute("xsi:type") ? xml.Attributes["xsi:type"].Value : xml.Name;
-		//	Type type = Type.GetType("GeometryGym.Ifc." + keyword, false, true);
+		//	Type type = Type.GetType("GeometryGym2.Ifc." + keyword, false, true);
 		//	if (type == null)
 		//	{
 		//		return null;

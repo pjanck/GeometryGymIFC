@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Drawing;
 
-namespace GeometryGym.Ifc
+namespace GeometryGym2.Ifc
 {
 	
 }	

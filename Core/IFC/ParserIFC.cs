@@ -28,10 +28,10 @@ using System.ComponentModel;
 using System.Diagnostics;
 using System.Linq;
 
-using GeometryGym.STEP;
+using GeometryGym2.STEP;
 using System.Runtime.CompilerServices;
 
-namespace GeometryGym.Ifc
+namespace GeometryGym2.Ifc
 {
 	public static class ParserIfc 
 	{

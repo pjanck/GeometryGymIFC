@@ -27,11 +27,11 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading;
-using GeometryGym.STEP;
+using GeometryGym2.STEP;
 using System.Collections;
-using GeometryGym.Ifc;
+using GeometryGym2.Ifc;
 
-namespace GeometryGym.STEP
+namespace GeometryGym2.STEP
 {
 	public partial class DatabaseSTEP<T> : IEnumerable<T> where T : STEPEntity//, new()
 	{

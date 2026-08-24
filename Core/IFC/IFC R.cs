@@ -21,9 +21,9 @@ using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Reflection;
 using System.Linq;
-using GeometryGym.STEP;
+using GeometryGym2.STEP;
 
-namespace GeometryGym.Ifc
+namespace GeometryGym2.Ifc
 {
 	[Serializable, Obsolete("DELETED IFC4", false)]
 	public partial class IfcRadiusDimension : IfcDimensionCurveDirectedCallout

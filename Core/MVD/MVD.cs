@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 
-using GeometryGym.Ifc;
+using GeometryGym2.Ifc;
 
-namespace GeometryGym.Mvd
+namespace GeometryGym2.Mvd
 {
 	public enum StatusEnum
 	{

@@ -15,7 +15,7 @@ If a specific version is of interest, add a version flag:
 
 Add the reference to your code: 
 
-    using GeometryGym.Ifc;
+    using GeometryGym2.Ifc;
 
 
 

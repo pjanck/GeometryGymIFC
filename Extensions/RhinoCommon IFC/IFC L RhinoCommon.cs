@@ -26,7 +26,7 @@ using System.IO;
 
 using Rhino.Geometry;
 
-namespace GeometryGym.Ifc
+namespace GeometryGym2.Ifc
 {
 	public partial class IfcLine
 	{

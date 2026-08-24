@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 
-namespace GeometryGym.Ifc
+namespace GeometryGym2.Ifc
 {
 	public partial interface IfcColour 
 	{

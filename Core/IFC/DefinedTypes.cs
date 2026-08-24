@@ -18,7 +18,7 @@
 
 using System;
 
-namespace GeometryGym.Ifc
+namespace GeometryGym2.Ifc
 {
 
 }

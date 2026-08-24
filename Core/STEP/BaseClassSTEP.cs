@@ -26,7 +26,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace GeometryGym.STEP
+namespace GeometryGym2.STEP
 {
 
 	public partial interface ISTEPEntity
@@ -106,7 +106,7 @@ namespace GeometryGym.STEP
 				name = fields[0];
 			if (!mSTEPTypes.TryGetValue(name, out type))
 			{
-				type = Type.GetType("GeometryGym." + nameSpace + "." + name, false, true);
+				type = Type.GetType("GeometryGym2." + nameSpace + "." + name, false, true);
 				if (type != null)
 					mSTEPTypes[name] = type;
 			}

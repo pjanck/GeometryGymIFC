@@ -19,7 +19,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace GeometryGym.Ifc
+namespace GeometryGym2.Ifc
 {
 	public enum ShapeRepresentationType
 	{

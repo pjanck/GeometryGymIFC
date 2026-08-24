@@ -25,10 +25,10 @@ using System.Reflection;
 using System.IO;
 using System.ComponentModel;
 using System.Linq;
-using GeometryGym.STEP;
+using GeometryGym2.STEP;
 using System.Xml.Serialization;
 
-namespace GeometryGym.Ifc
+namespace GeometryGym2.Ifc
 {
 	public partial class IfcFace
 	{

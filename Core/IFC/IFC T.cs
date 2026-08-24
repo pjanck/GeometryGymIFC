@@ -21,9 +21,9 @@ using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Reflection;
 using System.Linq;
-using GeometryGym.STEP;
+using GeometryGym2.STEP;
 
-namespace GeometryGym.Ifc
+namespace GeometryGym2.Ifc
 {
 	[Serializable]
 	public partial class IfcTable : BaseClassIfc, IfcMetricValueSelect, IfcObjectReferenceSelect, NamedObjectIfc
@@ -1659,7 +1659,7 @@ namespace GeometryGym.Ifc
 				if (versionAdded != null && versionAdded.Release > db.Release || type.IsAbstract)
 					type = typeof(IfcBuildingElementProxyType);
 
-				Type enumType = Type.GetType("GeometryGym.Ifc." + type.Name + "Enum");
+				Type enumType = Type.GetType("GeometryGym2.Ifc." + type.Name + "Enum");
 				ConstructorInfo ctor = type.GetConstructor(BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic, null, new[] { typeof(DatabaseIfc), typeof(string) }, null);
 				if (ctor == null)
 				{

@@ -24,7 +24,7 @@ using System.Reflection;
 using System.IO;
 using System.ComponentModel;
 using System.Linq;
-using GeometryGym.STEP;
+using GeometryGym2.STEP;
 
 #if (NET || !NOIFCJSON)
 #if (NEWTONSOFT)
@@ -36,7 +36,7 @@ using JsonArray = Newtonsoft.Json.Linq.JArray;
 using System.Text.Json.Nodes;
 #endif
 
-namespace GeometryGym.Ifc
+namespace GeometryGym2.Ifc
 {
 	public partial class IfcParameterizedProfileDef 
 	{

@@ -38,7 +38,7 @@ using System.Text.Json.Nodes;
 using System.Text.Json.Serialization;
 #endif
 
-namespace GeometryGym.Ifc
+namespace GeometryGym2.Ifc
 {
 	public partial class DatabaseIfc
 	{
