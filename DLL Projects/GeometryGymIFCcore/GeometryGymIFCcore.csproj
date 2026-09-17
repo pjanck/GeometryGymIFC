@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>GeometryGym2IFCCore</AssemblyName>
     <PackageId>GeometryGymIFC_Core</PackageId>
     <Version>25.7.30.0</Version>
     <Authors>Geometry Gym</Authors>
