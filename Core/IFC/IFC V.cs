@@ -563,7 +563,7 @@ namespace GeometryGym2.Ifc
 		public override string ToString() 
 		{
 			if(mCountMeasure != int.MinValue)
-				return this.GetType().Name + "((" + mCountMeasure + "))";
+				return this.GetType().Name.ToUpper() + "(" + mCountMeasure + ")";
 			return base.ToString();
 		}
 	}
